@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+    --main: rgb(6, 196,246);
+    --picton-blue-50: #effbff;
+    --picton-blue-100: #dff5ff;
+    --picton-blue-200: #b8eeff;
+    --picton-blue-300: #78e3ff;
+    --picton-blue-400: #31d5ff;
+    --picton-blue-600: #009bce;
+    --picton-blue-700: #007ca7;
+    --picton-blue-800: #02688a;
+    --picton-blue-900: #085672;
+    --picton-blue-950: #06364b;
+}
+body {
+    background: var(--main);
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* ===========  FIRTS WINDOW =============== */
+/* ============  HEADER ===============*/
+.navbar-expand-lg{
+    z-index: 200;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+header .navbar a{
+color: var(--main)!important;
+text-transform: uppercase;
+font-weight: bold;
+}
+.navbar a span{
+text-decoration:underline;
+}
+.firts-window{
+    
+    background-size: cover;
+}
+.firts-window .icon{
+    background-image: url(../img/background/main.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.firts-window .static{
+    font-size: 45px;
+    text-transform: uppercase;
+    text-decoration:underline;
+    font-weight: bold;
+    height:42%;
+}
+.writeMachine{
+    background-color: var(--picton-blue-50);
+    color: var(--picton-blue-950);
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+    height:42%;
+}
+
+
+
+/* ======SECOND WINDOW====== */
+
+
+
+
+.fondo{
+    width: 99%;
+    position: absolute;
+}
+.bxs-square{
+    transform: rotate(45deg);
+}
+.index{
+    z-index: 0;
+    
+};
